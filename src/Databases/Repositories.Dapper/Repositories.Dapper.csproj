@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>comp.patterns.repositories.dapper-1.0.2</AssemblyName>
+    <PackageId>comp.patterns.repositories.dapper</PackageId>
+    <Version>1.0.2</Version>
+    <FileVersion>1.0.2</FileVersion>
+    <AssemblyVersion>1.0.2</AssemblyVersion>
+    <IsPackable>true</IsPackable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Marcos Morais</Authors>
+    <Company></Company>
+    <Product></Product>
+    <Description>Pacote responsável por definições relacionadas à repositórios Dapper nas APIs</Description>
+    <RepositoryUrl></RepositoryUrl>
+    <RootNamespace>Patterns.Repositories.Dapper</RootNamespace>
+    <PackageReleaseNotes>
+      1.0.2: Atualização do componente comp.patterns.repositories para versão 1.0.3
+      1.0.1: Atualização do componente comp.patterns.repositories para versão 1.0.2
+      1.0.0: Criação do componente com a implementação padrão de repositório utilizando Dapper.
+    </PackageReleaseNotes>
+    <ProjectGuid>e97fe285-3608-4c8f-88b3-397ad3c2d265</ProjectGuid>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.35" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Repositories\Repositories.csproj" />
+  </ItemGroup>
+
+</Project>

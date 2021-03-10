@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>comp.patterns.mediatrx-1.0.3</AssemblyName>
+    <PackageId>comp.patterns.mediatrx</PackageId>
+    <Version>1.0.3</Version>
+    <FileVersion>1.0.3.0</FileVersion>
+    <AssemblyVersion>1.0.3.0</AssemblyVersion>
+    <IsPackable>true</IsPackable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Marcos Morais</Authors>
+    <Company></Company>
+    <Product></Product>
+    <Description>Pacote responsável pela definição de um padrão de comunicação entre camadas nas APIs</Description>
+    <RepositoryUrl></RepositoryUrl>
+    <RootNamespace>Patterns.MediatRx</RootNamespace>
+    <PackageReleaseNotes>
+      1.0.3: Ajuste no método de limpar notificações.
+      1.0.2: Criação de método para limpar notificações.
+    </PackageReleaseNotes>
+    <ProjectGuid>74a7f6d3-e90d-4e67-9e39-15e72c077435</ProjectGuid>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="8.6.2" />
+    <PackageReference Include="MediatR" Version="8.0.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\Contracts\Contracts.csproj" />
+  </ItemGroup>
+</Project>
